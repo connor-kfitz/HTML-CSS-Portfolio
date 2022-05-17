@@ -1,3 +1,4 @@
+/* Styling Entire Page */
 * {
     font-family: Arial;
     margin: 0;
@@ -5,8 +6,7 @@
 }
 
 /* Header of Website */
-
-header h1{
+#Title-Heading{
     align-items: center;
     padding: 1%;
     background-color: #13293d;
@@ -33,13 +33,12 @@ nav a:after{
     margin: 10px;
 }
 
-/* Main Style */
+/* Styling for Main */
 section {
     font-size: 150%;
 }
 
-/* About Me Section*/
-
+/* About Me Styling*/
 #About-Heading {
     background-color: lightblue;
     font-size: 230%;
@@ -48,15 +47,15 @@ section {
     text-decoration: underline;
 }
 
-.About img{
-    border: 2px solid black;
-}
-
 .About {
     display: flex;
     background-color: lightblue;
     padding: 20px;
     padding: 1%;
+}
+
+.About img{
+    border: 2px solid black;
 }
 
 .Text {
@@ -84,10 +83,7 @@ section {
     padding: 5px;
 }
 
-/* main section.About img {
-} */
-
-/* Projects Section */
+/* Projects Styling */
 
 #Projects-Heading {
     background-color: #7393B3;
@@ -112,6 +108,8 @@ section {
     width: 23.5%;
     margin: 0.5%;
     background-image: url("https://via.placeholder.com/500x500") ;
+    background-size: cover;
+    background-position: center;
     text-decoration: none;
 }
 
@@ -120,8 +118,9 @@ section {
     background-image: url("https://via.placeholder.com/2400x500") ;
 }
 
-.Project-Card:active {
-    background-image:url("https://via.placeholder.com/100"); ;
+.Project-Card:hover {
+    position: relative;
+    bottom: 10px;
 }
 
 .Project-Card header {
@@ -134,6 +133,7 @@ section {
     bottom: 6px;
 }
 
+/* Projects Styling for Different Screen Sizes */
 @media screen and (max-width: 2454px) {
     .Project-Card {
       width: 48%;
@@ -151,8 +151,7 @@ section {
     }
 }
 
-/* Contact Section */
-
+/* Contact Styling */
 #Contact-Heading {
     background-color: lightblue;
     font-size: 230%;

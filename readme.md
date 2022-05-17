@@ -18,8 +18,6 @@ All links on the navigation bar shall take the user to their corresponding secti
 
 5.  Created a contact section with phone number, email, and hyperlink to my Linkedin.  Used a flexbox to contain the three elements.  Styled in css and created flex properties to allow a clean view at multiple resoltutions.
 
-
-
 ## Picture of Website
 
 ![Picture of Horiseon Webpage](./Assets/Images/Portfolio-Website-Screenshot.png)
