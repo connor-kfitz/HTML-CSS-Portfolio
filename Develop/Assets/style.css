@@ -1,0 +1,170 @@
+* {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header of Website */
+
+header h1{
+    align-items: center;
+    padding: 1%;
+    background-color: #13293d;
+    border-color:black;
+    color: white;
+    font-size: 300%;
+    border-bottom: 4px solid black;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #7393B3;
+}
+
+nav a{    
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+    padding: 10px 10px;
+}
+
+nav a:after{
+    margin: 10px;
+}
+
+/* Main Style */
+section {
+    font-size: 150%;
+}
+
+/* About Me Section*/
+
+#About-Heading {
+    background-color: lightblue;
+    font-size: 230%;
+    padding: 10px 10px 10px 20px;
+    border-top: 4px solid black;
+    text-decoration: underline;
+}
+
+.About img{
+    border: 2px solid black;
+}
+
+.About {
+    display: flex;
+    background-color: lightblue;
+    padding: 20px;
+    padding: 1%;
+}
+
+.Text {
+    font-size: 30px;
+    display: flex;
+    width: 100%;
+    padding-left: 15px;
+}
+
+.Education {
+    display: flex;
+    flex-direction: column;
+    font-size: smaller;
+}
+
+.Education p {
+    font-weight: bold;
+}
+
+.Education ul {
+    padding-left: 60px;
+}
+
+.About p {
+    padding: 5px;
+}
+
+/* main section.About img {
+} */
+
+/* Projects Section */
+
+#Projects-Heading {
+    background-color: #7393B3;
+    font-size: 230%;
+    padding: 10px 10px 10px 20px;
+    border-top: 4px solid black;
+    text-decoration: underline;
+}
+
+.Projects {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #7393B3;
+    justify-content: center;
+    padding-bottom: 1%;
+    height: 1000px;
+}
+
+.Project-Card {
+    display: flex;
+    border: 2px solid black;
+    width: 23.5%;
+    margin: 0.5%;
+    background-image: url("https://via.placeholder.com/500x500") ;
+    text-decoration: none;
+}
+
+.Project-Card.First {
+    width: 97.5%;
+    background-image: url("https://via.placeholder.com/2400x500") ;
+}
+
+.Project-Card:active {
+    background-image:url("https://via.placeholder.com/100"); ;
+}
+
+.Project-Card header {
+    background-color: lightblue;
+    border: 2px solid black;
+    align-self: end;
+    color: black;
+    position: relative;
+    left: 4px;
+    bottom: 6px;
+}
+
+@media screen and (max-width: 2454px) {
+    .Project-Card {
+      width: 48%;
+      height: 19%;
+    }
+    .Project-Card.First {
+        height: 48%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Project-Card {
+      width: 97.5%;
+      height: 10%;
+    }
+}
+
+/* Contact Section */
+
+#Contact-Heading {
+    background-color: lightblue;
+    font-size: 230%;
+    padding: 10px 10px 10px 20px;
+    border-top: 4px solid black;
+    text-decoration: underline;
+}
+
+.Contact {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+    justify-content: space-around;
+    padding: 0.5% 0 2% 0;
+}
