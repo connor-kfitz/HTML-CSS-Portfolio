@@ -1,4 +1,4 @@
-# Add Accessibility and Format HTML for Horiseon's Website
+# HTML & CSS Portfolio
 
 ## Description
 
@@ -12,7 +12,7 @@ All links on the navigation bar shall take the user to their corresponding secti
 
 2.  Created header with a title and navigational links using anchors, set respective h-ref points for later use.  Styled section in CSS.
 
-3.  Created about me section with a title, photo, short bio, education, and experience sections.  Used some nested flex boxes to layout images and text.  Styled in css and created flex properties to allow a clean view at multiple resoltutions.
+3.  Created about me section with a title, photo, short bio, education, and experience sections.  Used some nested flex boxes to layout images and text.  Styled using CSS and created flex properties to allow a clean view at multiple resoltutions.
 
 4.  Created a projects section using nested flexboxes.  Styled in css and created flex properties to allow a clean view at multiple resoltutions.  Made main project the focus (biggest size) regardless of the resolution used.
 

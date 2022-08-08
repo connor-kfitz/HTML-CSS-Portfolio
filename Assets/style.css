@@ -133,6 +133,12 @@ section {
     bottom: 6px;
 }
 
+/* #mainProjectCard:hover {
+    background-image: url("/images/body-background.webp");
+    background-size: cover;
+    background-repeat:no-repeat;
+} */
+
 /* Projects Styling for Different Screen Sizes */
 @media screen and (max-width: 2454px) {
     .Project-Card {
